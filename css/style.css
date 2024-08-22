@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+.menu_ul{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.ul_li a{
+    color: black;
+}
+.ul_li:hover{
+    transform: scale(1.5);
+    transition: 1s ease;
+}
+
+.menu_btn{
+    background: rgb(235, 235, 235);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+
+}
+.menu_btn a{
+    color: black;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    
+}
+.img_two{
+    width: 800px;
+    height: 600px;
+}
+.brows{
+    display: flex;
+    padding: 0 60px;
+
+}
+ 
+.brows button{
+    color: aliceblue;
+    background: #f14814;
+    padding: 10px 20px;
+    border: none;
+}
+.brows p{
+    margin: 10px 30px;
+    color: aliceblue;
+
+}
+.one{
+    margin-top: 112px;
+    background: #3f3b3d;
+    height: 450px;
+}
+.one h2{
+    font-size: 40px;
+    margin-top: 200px;
+    padding: 20px 60px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+/* section start */
+
+.bloc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+
+}
+.bloc_p{
+    color: #f14814;
+    font-weight: 100;
+    padding: 15px 0;
+}
+
+
+.bloc_h3{
+    font-size: 35px ;
+    width: 1000px;
+    text-align: center;
+    color: #777;
+    font-weight: 400;
+
+}
+.boc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    text-align: center;
+
+}
+.bock{
+    width: 30%;
+
+}
+.wert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+.get_h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 50px 0;
+    font-size: 40px;
+
+}
+.get{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    gap: 10px;
+
+}
+.bestb{
+    background: #cef9ff;
+    height: 535px;
+    width: 600px ;
+    padding: 200px 80px 0 80px ;
+}
+.best_p{
+    font-size: 30px ;
+
+}
+.best_p1{
+    margin: 20px 0;
+
+}
+.tree{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+}
+.for{
+    width: 300px;
+    
+}
